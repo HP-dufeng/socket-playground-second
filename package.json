@@ -1,0 +1,33 @@
+{
+  "name": "socket_playground_second",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "connect": "^3.6.0",
+    "connect-flash": "^0.1.1",
+    "connect-redis": "^3.2.0",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "express-partials": "^0.3.0",
+    "express-session": "^1.15.1",
+    "redis": "^2.6.5",
+    "socket.io": "^1.7.3",
+    "socket.io-redis": "^4.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
+
